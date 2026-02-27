@@ -1,13 +1,15 @@
 {
   "name": "peliculas-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto API REST para la gestion de peliculas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nodejs", "mongodb", "API"],
+  "author": "Brayan Alejandro Durango Urrea",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
